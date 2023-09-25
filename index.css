@@ -1,0 +1,267 @@
+body{
+   margin: 0;
+   top:0;
+}
+
+.container{
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+}
+.container-5{
+    display: flex;
+}
+.container-5 .ul{
+   display: flex;
+}
+.container-5 .ul li{
+    list-style-type: none;
+    margin:10px;
+}
+
+.container .ul{
+    display: flex;
+}
+.container .ul li{
+    list-style-type: none;
+    margin:10px;
+}
+.container .consult{
+    border-radius: 50%;
+}
+.container ul li{
+    list-style-type: none;
+    margin-right:20px;
+}
+
+/* .container img{
+    border-radius: 50%;
+} */
+#carousel .carousels .card{
+    width:350px;
+height:500px;
+}
+#doctor .doctors .card{
+width:380px;
+height:500px;
+}
+#hospital .hospitals .card{
+    width:400px;
+    height:500px;
+    }
+
+/* navbar */
+#section{
+    background-color: rgb(149, 149, 255);
+
+}
+#enquire{
+    background-image:url("https://i.pinimg.com/originals/08/ac/8c/08ac8c732b42490b44f40278c3c555ae.jpg");
+background-size: cover;
+padding: 30px;
+}
+
+.navbar .nav-item{
+    color: white;
+}
+.navbar form ul li {
+    list-style-type: none;
+
+}
+.navbar form ul li i {
+   /* background-color: blue; */
+   height: 10px;
+   width:50px;
+   border-radius: 5px;
+
+}
+  .navbar form  i {
+    position:absolute;
+     /* border: 2px solid blue; */
+    height: 10px; 
+     /* margin-top: 10px;  */
+    margin-right: 150px;
+    width:150px; 
+    border-radius: 5px;
+     /* background-color: blue;  */
+     padding: 5px;
+  }  
+  .form .input{
+    /* margin-top: 20px; */
+    padding: 20px;
+    background-color: blue;
+    border: none;
+  }
+  .form input {
+    height: 50px;
+    width:300px;
+  }
+  
+ #enquire .nav-enquire{
+    /* float:left; */
+    margin-top: 100px;
+
+}
+
+.container-2 ul li{
+    list-style-type: none;
+
+}
+ .container .form{
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 5px;
+    height:600px;
+    width:350px;
+    margin:20px;
+} 
+
+.container .form textarea{
+    width:300px;
+}
+.container .form .btn{
+    height:40px;
+    width:300px;
+}  
+#patient .ul {
+    margin-top: 50px;
+   
+}
+#doctor{
+    background-color: rgb(208, 232, 241);
+    padding: 100px;
+    margin-top: 100px;
+}
+.form {
+    height:40px;
+    width:350px;
+}
+.dashed{
+    border-bottom: dashed 2px blue;
+}
+
+.container .vl{
+    border-left: 3px solid blue;
+    height:80px;
+}
+.container .bl{
+    border-bottom: 3px solid red;
+    height:80px;
+    text-decoration: none;
+}
+.navbar .ut{
+    border-bottom: 3px solid blue;
+    width:80px;
+}
+/* footer */
+
+#footer{
+    background-color: rgb(110, 110, 243);
+   color:white;
+   margin-top: 50px;
+
+}
+
+.last-container{
+    display: flex;
+margin-top: 50px;
+}
+.team{
+    /* text-align: center; */
+    color:white;
+    margin-left:200px;
+    text-align: center;
+}
+.team .get{
+    border: 1px solid blue;
+    background-color: blue;
+    height:40px;
+    width:150px;
+    color:white;
+    padding: 10px;
+    text-align: center;
+}
+
+.team .vt{
+    border-left: 1px solid white;
+    height:40px;
+    margin-left: 20px;
+}
+.team .call{
+    color:white;
+    text-decoration: none;
+    margin-left: 20px;
+
+}
+ .last-container-1{
+    display: flex;
+    margin-left: 450px;
+}
+.last-container ul li{
+    list-style-type: none;
+    color: white;
+    margin-right:10px;
+
+}
+.last-container h3{
+    color: white;
+}
+.black{
+    background: black;
+    color: white;
+    padding: 40px;
+    margin-top: 50px;
+}
+.cr{
+    color:white;
+}
+.last-container div{
+    margin-right: 30px;
+}
+@media screen and (max-width:767px){
+   .container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+ } 
+
+.last-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.last-container div{
+    margin-top: 50px;
+
+}
+.team{
+    margin-left:40px;
+}
+.container-5{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.container-5 .ul li{
+    list-style-type: none;
+    /* margin:20px; */
+}
+#doctor .doctors .card {
+height:500px;
+width:350px;
+}
+#doctor{
+    background-color: rgb(208, 232, 241);
+    padding: 20px;
+    margin-top: 100px;
+}
+#hospital .hospitals .card{
+    width:350px;
+    height:500px;
+    }
+}
+
+
+
+
+
